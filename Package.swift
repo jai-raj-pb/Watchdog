@@ -1,13 +1,19 @@
-// swift-tools-version:4.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version:5.2
+
 import PackageDescription
 
 let package = Package(
     name: "Watchdog",
     products: [
-        .library(name: "Watchdog", targets: ["Watchdog"]),
+        .library(
+            name: "Watchdog",
+            targets: ["Watchdog"]
+        ),
     ],
     targets: [
-        .target(name: "Watchdog", path: "Classes"),
+        .target(
+            name: "Watchdog",
+            path: "Classes"
+        )
     ]
 )
